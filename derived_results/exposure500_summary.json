@@ -1,0 +1,46 @@
+{
+  "025": {
+    "N": 500,
+    "exposed_accuracy": {
+      "N": 415,
+      "correct": 255,
+      "rate": 0.6144578313253012
+    },
+    "exposed_but_not_selected": 160,
+    "exposure_counts": {
+      "exposed_no": 83,
+      "exposed_yes": 415,
+      "unknown": 2
+    },
+    "image_qualifying_delivery": 301,
+    "nonexposed_accuracy": {
+      "N": 83,
+      "correct": 0,
+      "rate": 0.0
+    },
+    "threshold": 0.25,
+    "tool_text_qualifying_delivery": 415
+  },
+  "050": {
+    "N": 500,
+    "exposed_accuracy": {
+      "N": 371,
+      "correct": 220,
+      "rate": 0.5929919137466307
+    },
+    "exposed_but_not_selected": 151,
+    "exposure_counts": {
+      "exposed_no": 127,
+      "exposed_yes": 371,
+      "unknown": 2
+    },
+    "image_qualifying_delivery": 267,
+    "nonexposed_accuracy": {
+      "N": 127,
+      "correct": 0,
+      "rate": 0.0
+    },
+    "threshold": 0.5,
+    "tool_text_qualifying_delivery": 371
+  }
+}

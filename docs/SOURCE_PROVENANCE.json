@@ -1,0 +1,102 @@
+{
+  "calibration": {
+    "bytes": 15987003,
+    "sha256": "2fcd9b601cf3e1caf4fa7ba7c501b9e444d7291f4455399863e57447b986c8ff",
+    "source_id": "source://calibration"
+  },
+  "canonical": {
+    "bytes": 16898,
+    "sha256": "6376cf10af3404b388db0c42ba051b38d338fc794262eec59eb137a9d8773e16",
+    "source_id": "source://canonical"
+  },
+  "exposure500": {
+    "bytes": 135943,
+    "sha256": "e7833e89d3b0cb42c999b2129b89d2c2d57c11ef566779c10aee41d8e0f49747",
+    "source_id": "source://exposure500"
+  },
+  "exposure_stats": {
+    "bytes": 667,
+    "sha256": "aa5fa33e937863dc9db6344b49b26c6f41c9b75765896a0dd608f55a4baf7398",
+    "source_id": "source://exposure_stats"
+  },
+  "exposure_strata": {
+    "bytes": 763,
+    "sha256": "d4be5fbaff4736fe9cb2c90cb98c5ef4d6de9b34ff16834108846c31d5858e60",
+    "source_id": "source://exposure_strata"
+  },
+  "exposure_summary": {
+    "bytes": 930,
+    "sha256": "2c59801a71bf559180dc1b2e053586222dbd94f99df87876fb20f43a57d11b05",
+    "source_id": "source://exposure_summary"
+  },
+  "independent": {
+    "bytes": 84682017,
+    "sha256": "1155610e5b49e1ef678bf5919a00ec46084dffc27dc6c618fee31627dff377e5",
+    "source_id": "source://independent"
+  },
+  "logging_protocol": {
+    "bytes": 1037,
+    "sha256": "c24f1c7340abb25a7251c5d209bcfb7f60692020558ca105d2c32ff828370386",
+    "source_id": "source://logging_protocol"
+  },
+  "metric_reconciliation": {
+    "bytes": 1043,
+    "sha256": "13e736e838a5af8222e47fef0f1dcd29b21623dcfcff6d4ec30645907f794a7b",
+    "source_id": "source://metric_reconciliation"
+  },
+  "outcome_split": {
+    "bytes": 1680518,
+    "sha256": "1178dcc3f263ce1595fb66f055a3506093ba410f90c080a53a4605c5245fc866",
+    "source_id": "source://outcome_split"
+  },
+  "per_query_stage": {
+    "bytes": 2700611,
+    "sha256": "69faa150abe1f6817ad859e273fde79e91318a0f1c575a95337e9d65e2a2cdce",
+    "source_id": "source://per_query_stage"
+  },
+  "review_index": {
+    "bytes": 25119,
+    "sha256": "30f5764bb70378a762c4e8df0a646aa81c64e4c60f29eb344853a6fd30c487e4",
+    "source_id": "source://review_index"
+  },
+  "review_template": {
+    "bytes": 25484,
+    "sha256": "c55be6fccc7d702873f4040aa4fa9087ac6120765242c5fe72e934c699998c65",
+    "source_id": "source://review_template"
+  },
+  "second": {
+    "bytes": 64468,
+    "sha256": "af75adeadd750f36d2fe0b94543bd4af46640f0caf2fae8360e04dc1b3227c3d",
+    "source_id": "source://second"
+  },
+  "stage_a_code": {
+    "bytes": 27630,
+    "sha256": "6a1831eee02dad31f00bbeb1010ad92255d3d1f3b83a95f1a29029cf08e04b95",
+    "source_id": "source://stage_a_code"
+  },
+  "stage_funnel": {
+    "bytes": 1395,
+    "sha256": "a7b9be1ec402d025049fd3df7799f19e0cbff34bded8b8d6fbadf0ea0eb682a0",
+    "source_id": "source://stage_funnel"
+  },
+  "submission_report": {
+    "bytes": 1439,
+    "sha256": "e604bd5e00cc6b8ca9f3c98dbc5fe29f9ef785cf9d136125be8737b99fe82e4b",
+    "source_id": "source://submission_report"
+  },
+  "summary": {
+    "bytes": 1449,
+    "sha256": "602f5000e079e17e21c3adf0deb5e4330df4d41c764c8d1625f5d48efdbadd20",
+    "source_id": "source://summary"
+  },
+  "trace_config": {
+    "bytes": 1219,
+    "sha256": "0c3e126b5b83b3f2ed3b8de73c330ec895aee62c61c7939766fdd5d511dd98db",
+    "source_id": "source://trace_config"
+  },
+  "trace_protocol": {
+    "bytes": 1590,
+    "sha256": "c6618d987f68222a7a3345613db8bcb33c23cf27d032d48bc2b1c35955f3adb2",
+    "source_id": "source://trace_protocol"
+  }
+}

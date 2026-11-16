@@ -1,0 +1,6 @@
+partition,queries,unique_scenes,source_split,source_file,source_sha256
+canonical_dev200,200,20,ScanRefer training,<RESTRICTED_LOCAL_ARTIFACT>
+second_development,200,148,ScanRefer training,<RESTRICTED_LOCAL_ARTIFACT>
+exposure500,500,98,ScanRefer validation,<RESTRICTED_LOCAL_ARTIFACT>
+compareground3d_calibration,7079,112,ScanRefer training,<RESTRICTED_LOCAL_ARTIFACT>
+independent_archive,7952,120,ScanRefer validation,<RESTRICTED_LOCAL_ARTIFACT>

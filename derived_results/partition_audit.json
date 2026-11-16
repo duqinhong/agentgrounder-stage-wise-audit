@@ -1,0 +1,109 @@
+{
+  "checks": {
+    "calibration_independent_scene_overlap": 0,
+    "canonical_second_query_overlap": 0,
+    "canonical_second_scene_overlap": 5,
+    "exposure500_queries_in_independent": 500,
+    "exposure500_queries_outside_independent": 0,
+    "exposure500_scenes_in_independent": 98,
+    "exposure500_scenes_outside_independent": 0
+  },
+  "paper_table_5_corrections": {
+    "calibration_source": {
+      "paper_value": "ScanRefer training partition",
+      "verified_value": "ScanRefer training"
+    },
+    "canonical_dev200_source": {
+      "paper_value": "Validation",
+      "verified_value": "ScanRefer training"
+    },
+    "exposure500_scenes": {
+      "note": "120 is the parent independent archive scene count, not necessarily the sample coverage",
+      "paper_value": 120,
+      "verified_value": 98
+    },
+    "second_development_scenes": {
+      "paper_value": 148,
+      "verified_value": 148
+    }
+  },
+  "partitions": {
+    "canonical_dev200": {
+      "duplicate_query_rows": 0,
+      "query_count": 200,
+      "row_count": 200,
+      "source_split": "ScanRefer training",
+      "unique_scene_count": 20
+    },
+    "compareground3d_calibration": {
+      "duplicate_query_rows": 0,
+      "query_count": 7079,
+      "row_count": 7079,
+      "source_split": "ScanRefer training",
+      "unique_scene_count": 112
+    },
+    "exposure500": {
+      "duplicate_query_rows": 0,
+      "query_count": 500,
+      "row_count": 500,
+      "source_split": "ScanRefer validation",
+      "unique_scene_count": 98
+    },
+    "independent_archive": {
+      "duplicate_query_rows": 0,
+      "query_count": 7952,
+      "row_count": 7952,
+      "source_split": "ScanRefer validation",
+      "unique_scene_count": 120
+    },
+    "second_development": {
+      "duplicate_query_rows": 0,
+      "query_count": 200,
+      "row_count": 200,
+      "source_split": "ScanRefer training",
+      "unique_scene_count": 148
+    }
+  },
+  "scanrefer_scene_sets": {
+    "overlap": 0,
+    "train_scenes": 562,
+    "validation_scenes": 141
+  },
+  "source_files": {
+    "canonical_dev200": {
+      "bytes": 16898,
+      "path": "source://canonical_dev200",
+      "sha256": "6376cf10af3404b388db0c42ba051b38d338fc794262eec59eb137a9d8773e16"
+    },
+    "compareground3d_calibration": {
+      "bytes": 15987003,
+      "path": "source://compareground3d_calibration",
+      "sha256": "2fcd9b601cf3e1caf4fa7ba7c501b9e444d7291f4455399863e57447b986c8ff"
+    },
+    "exposure500": {
+      "bytes": 135943,
+      "path": "source://exposure500",
+      "sha256": "e7833e89d3b0cb42c999b2129b89d2c2d57c11ef566779c10aee41d8e0f49747"
+    },
+    "independent_archive": {
+      "bytes": 84682017,
+      "path": "source://independent_archive",
+      "sha256": "1155610e5b49e1ef678bf5919a00ec46084dffc27dc6c618fee31627dff377e5"
+    },
+    "scanrefer_train": {
+      "bytes": 19826388,
+      "path": "source://scanrefer_train",
+      "sha256": "551801b89aa61e61fa04ec4d4d006c6633978bb22bae1e7b45c1fd5e3c9826b7"
+    },
+    "scanrefer_val": {
+      "bytes": 6348023,
+      "path": "source://scanrefer_val",
+      "sha256": "c9a44fa2cfb83ea1893a76f4041f206bb0432614600b43d87b47ca2d791e76f3"
+    },
+    "second_development": {
+      "bytes": 64468,
+      "path": "source://second_development",
+      "sha256": "af75adeadd750f36d2fe0b94543bd4af46640f0caf2fae8360e04dc1b3227c3d"
+    }
+  }
+}

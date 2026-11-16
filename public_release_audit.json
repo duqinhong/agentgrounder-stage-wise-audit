@@ -1,0 +1,10 @@
+{
+  "absolute_paths_found": 0,
+  "files_scanned": 38,
+  "license_boundary": "code/docs/derived identifiers only; third-party data excluded",
+  "model_weights_included": false,
+  "raw_annotations_included": false,
+  "restricted_binary_files": 0,
+  "status": "passed",
+  "violations": []
+}

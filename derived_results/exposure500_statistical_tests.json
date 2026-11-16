@@ -1,0 +1,28 @@
+{
+  "025": {
+    "exposure_strata_fisher_exact_determinable": 5.21726291330324e-16,
+    "query_bootstrap": {
+      "ci95": [
+        0.256,
+        0.376
+      ],
+      "repetitions": 10000,
+      "seed": 20261105,
+      "valid_replicates": 10000
+    },
+    "risk_difference_full_denominator": 0.31599999999999995
+  },
+  "050": {
+    "exposure_strata_fisher_exact_determinable": 1.5476900430585955e-09,
+    "query_bootstrap": {
+      "ci95": [
+        0.15599999999999992,
+        0.30000000000000004
+      ],
+      "repetitions": 10000,
+      "seed": 20261105,
+      "valid_replicates": 10000
+    },
+    "risk_difference_full_denominator": 0.22799999999999998
+  }
+}

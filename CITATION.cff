@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+title: "Beyond Candidate Recall: Explainable Stage-Wise Auditing of Multimodal Agents for 3D Visual Grounding"
+message: "If you use these audit materials, please cite the associated paper."
+type: software
+authors:
+  - family-names: Du
+    given-names: Qinhong
+year: 2026
+license: MIT
+repository-code: "https://github.com/duqinhong/agentgrounder-stage-wise-audit"

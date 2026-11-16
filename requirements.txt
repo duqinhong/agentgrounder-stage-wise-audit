@@ -1,0 +1,1 @@
+# Python 3.10+; public verification scripts use only the standard library.

@@ -1,0 +1,23 @@
+{
+  "version": "traceselect3d-exposure-v1",
+  "selection_sha256": "manual_review_template.csv frozen 32 query IDs only",
+  "top_k": 16,
+  "score_formula": "0.75*cos(MiniLM(target_phrase),MiniLM(label))+0.25*cos(MiniLM(query),MiniLM(label))",
+  "priority": ["exact_label", "fixed_synonym", "semantic"],
+  "within_equal_label_tie_break": "farthest_center_from_already_selected_then_candidate_id",
+  "semantic_model": "<RESTRICTED_LOCAL_ARTIFACT>",
+  "semantic_model_weight_sha256": "53aa51172d142c89d9012cce15ae4d6cc0ca6895895114379cacb4fab128d9db",
+  "synonyms": {
+    "couch": ["sofa"], "sofa": ["couch"], "tv": ["television"], "television": ["tv"],
+    "refrigerator": ["fridge"], "fridge": ["refrigerator"], "bookshelf": ["bookcase"],
+    "bookcase": ["bookshelf"], "trash can": ["garbage bin", "bin"],
+    "garbage bin": ["trash can", "bin"], "cabinet": ["cupboard"], "cupboard": ["cabinet"],
+    "desk": ["workstation"], "workstation": ["desk"], "lamp": ["light"], "light": ["lamp"]
+  },
+  "coverage_gate": {
+    "minimum_newly_covered_exposed_no_cases": 2,
+    "minimum_net_coverage_gain": 2,
+    "unknown_baseline_cases_not_counted_as_improvement": true
+  },
+  "seed": 20261027
+}

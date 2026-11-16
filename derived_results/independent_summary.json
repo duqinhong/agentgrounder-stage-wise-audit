@@ -1,0 +1,61 @@
+{
+  "gap_025_count": 31,
+  "gap_05_count": 28,
+  "recomputation_mismatch_count": 0,
+  "recomputation_mismatches": [],
+  "thresholds": {
+    "025": {
+      "abcd": {
+        "A": 3872,
+        "B": 3492,
+        "C": 554,
+        "D": 34
+      },
+      "denominator": 7952,
+      "image_message_queries": 3965,
+      "pool_present": 7395,
+      "pool_present_agent_wrong_exposure": {
+        "exposed_no": 22,
+        "exposed_yes": 1707,
+        "unknown": 1794
+      },
+      "pool_present_exposure": {
+        "exposed_no": 22,
+        "exposed_yes": 3899,
+        "unknown": 3474
+      },
+      "selected_correct": 3872,
+      "selected_correct_after_exposed_yes": 2192,
+      "threshold": 0.25,
+      "trace_recoverable": 4345,
+      "valid_predictions": 7918
+    },
+    "05": {
+      "abcd": {
+        "A": 3477,
+        "B": 3199,
+        "C": 1242,
+        "D": 34
+      },
+      "denominator": 7952,
+      "image_message_queries": 3965,
+      "pool_present": 6704,
+      "pool_present_agent_wrong_exposure": {
+        "exposed_no": 17,
+        "exposed_yes": 1552,
+        "unknown": 1658
+      },
+      "pool_present_exposure": {
+        "exposed_no": 17,
+        "exposed_yes": 3547,
+        "unknown": 3140
+      },
+      "selected_correct": 3477,
+      "selected_correct_after_exposed_yes": 1995,
+      "threshold": 0.5,
+      "trace_recoverable": 4345,
+      "valid_predictions": 7918
+    }
+  },
+  "unrecoverable_exposure_rows": 3452
+}

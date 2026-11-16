@@ -1,0 +1,29 @@
+{
+  "version": "traceselect3d-dev200-exposure-only-v1",
+  "canonical_manifest": "<RESTRICTED_LOCAL_ARTIFACT>",
+  "canonical_manifest_sha256": "fc55fd5ae57cce120f1e04d69bb201252adc2382d3ca935e3265f6ada3bf07a9",
+  "query_count": 200,
+  "exposure_config_sha256": "0c3e126b5b83b3f2ed3b8de73c330ec895aee62c61c7939766fdd5d511dd98db",
+  "agent_model": "qwen3-vl:32b-instruct",
+  "agent_model_digest": "c9a60b1a1a13df1d07bf83fbb04662847c533646554e6d94dff6dbd5c6d736ae",
+  "base_url": "http://127.0.0.1:11534",
+  "original_agent_config": "<LOCAL_CODE_ROOT>",
+  "original_agent_config_sha256": "51d1e0c2b6a530f8817b9cc9ea211750588964f75df354b36a0c522a90519283",
+  "system_prompt_sha256": "04fdf53143c61e42f0d5f7b207c048c550912bb11e707d70380a800a8cd5f99e",
+  "temperature": 0.0,
+  "seed": 69,
+  "num_ctx": 16384,
+  "arms": {
+    "A": "original VGAgent input and tools, no exposure message",
+    "B": "identical VGAgent input and tools plus one GT-free exposure HumanMessage before the plan instruction"
+  },
+  "execution": "A then B independently per query; same scene inputs; no state sharing; no GT until both predictions frozen",
+  "evaluation": {
+    "thresholds": [0.25, 0.5],
+    "success_gate_top1_025_min_gain_queries": 6,
+    "success_gate_top1_05_min_gain_queries": 0,
+    "success_gate_utility_025_positive": true,
+    "utility": "wrong_to_right - 2*right_to_wrong",
+    "no_independent_evaluation_without_confirmation": true
+  }
+}

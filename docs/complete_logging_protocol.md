@@ -1,0 +1,5 @@
+# Complete logging protocol for the future 500-query rerun
+
+This file is a manifest-only protocol. No rerun was started.
+
+For every attempt, append atomically to an attempt ledger and save: all model input/output messages; ordered tool requests and tool responses; every delivered image file, path, and SHA-256; model/tool/image call counts; candidate order and its hash; final prediction; the original exception including service payload; and the result of ContextVar/per-run-state cleanup. The orchestration fields `sampling_stratum`, `historical_run_status`, and `rank_key` must never enter model messages, tools, or candidate generation. GT, IoU, correctness, qualifying IDs, and historical exposure labels remain unavailable until all 500 predictions and traces are frozen and hashed. Request-only events do not establish delivery. Each image-bearing response must record the exact image hash actually inserted into the model message. Attempts are append-only; failures cannot be replaced or backfilled from historical predictions.
