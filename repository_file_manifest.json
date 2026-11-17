@@ -52,9 +52,9 @@
       "sha256": "f7553ba678191b95f2724ce41515876ae7be3fcfa10d06769f02905c4cf8b602"
     },
     {
-      "bytes": 750,
+      "bytes": 1065,
       "path": "derived_results/corrected_partition_table.tex",
-      "sha256": "971cd8cc07335b6cb71472d07446f07310f8f4dd3e6349c855f0fd407227bfba"
+      "sha256": "7b3c12cd5513451f8d68feb587923c8ed298db8db1bf24d6b63ad794350afb9b"
     },
     {
       "bytes": 453732,
