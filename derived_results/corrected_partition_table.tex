@@ -1,12 +1,14 @@
 \begin{table*}[t]
 \centering
-\caption{Audited data partitions. Counts are recomputed by unique query and scene identifiers from frozen manifests.}
+\caption{Audited data partitions. The 20-scene validation development cohort and \texttt{scene0011\_00} were excluded when constructing the independent archive. They are distinct from the two later ScanRefer-training development sets.}
 \label{tab:audited_partitions}
 \begin{tabular}{lllll}
 \toprule
 Partition & Source & Scenes & Queries & Purpose \\
 \midrule
 Official validation & ScanRefer validation & 141 & 9,508 & Parent partition \\
+Validation development cohort & ScanRefer validation & 20 & 200 sampled & Split exclusion \\
+Earlier development scene & ScanRefer validation & 1 & -- & Split exclusion (\texttt{scene0011\_00}) \\
 Independent archive & ScanRefer validation & 120 & 7,952 & Audit \\
 Exposure500 rerun & Independent archive subset & 98 & 500 & Logging rerun \\
 Canonical dev200 & ScanRefer training & 20 & 200 & Development \\
